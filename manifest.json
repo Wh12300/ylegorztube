@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "ylexargorgoz",
+    "version": "1.0",
+    "description": "andzriet bavshvebze ylegorzastan ertad <3",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
